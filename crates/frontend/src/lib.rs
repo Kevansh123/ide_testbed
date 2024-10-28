@@ -10,6 +10,7 @@ use wasm_bindgen::prelude::*;
 mod sidebar;
 mod workspace;
 mod vfs;
+mod contextmenu;
 
 enum WorkspaceCommand {
     OpenFile(Rc<vfs::File>),
